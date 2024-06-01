@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.palette.graphics.Palette
 import com.example.pokemonapp.data.models.PokemonListEntry
-import com.example.pokemonapp.repository.PokemonRepository
+import com.example.pokemonapp.domain.repository.PokemonRepository
 import com.example.pokemonapp.util.Constants.PAGE_SIZE
 import com.example.pokemonapp.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel

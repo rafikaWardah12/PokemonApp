@@ -1,7 +1,7 @@
 package com.example.pokemonapp.di
 
 import com.example.pokemonapp.data.remote.PokeApi
-import com.example.pokemonapp.repository.PokemonRepository
+import com.example.pokemonapp.domain.repository.PokemonRepository
 import com.example.pokemonapp.util.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
